@@ -96,7 +96,7 @@ jupyter notebook
 ## 📈 Visualizations
 
 ### Average Lap Time by Compound
-![Average Lap Times](outputs/monza_tire_mean.png)
+![Average Lap Times](outputs/monza_tire_comparison.png)
 
 ### Median Lap Time by Compound
 ![Median Lap Times](outputs/monza_tire_median.png)
