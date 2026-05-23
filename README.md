@@ -1,15 +1,15 @@
-# 🏎️ F1 Lap Time Analyzer
+#  F1 Lap Time Analyzer
 
 A Python-based data analysis project that examines Formula 1 lap times to understand how tire compounds affect race performance. This project demonstrates data cleaning, manipulation, visualization, and insight generation using real F1 telemetry data.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project analyzes the 2025 Monza Grand Prix to answer key questions:
 - How do different tire compounds (SOFT, MEDIUM, HARD) perform in race conditions?
 - What's the performance gap between tire compounds?
 - How do teams strategize tire usage during a race?
 
-## 📊 Key Findings - 2025 Monza GP
+## Key Findings - 2025 Monza GP
 
 ### Race Performance by Tire Compound
 
@@ -19,7 +19,7 @@ This project analyzes the 2025 Monza Grand Prix to answer key questions:
 - SOFT: 86.13s (29 laps)
 
 **Fastest Laps:**
-- SOFT: 80.90s ⚡ (fastest overall!)
+- SOFT: 80.90s  (fastest overall!)
 - HARD: 81.00s
 - MEDIUM: 81.37s
 
@@ -30,7 +30,7 @@ This project analyzes the 2025 Monza Grand Prix to answer key questions:
 3. **Tire degradation matters** - SOFT average (86.13s) much higher than median (82.28s), indicating severe performance drop-off with tire age
 4. **Monza characteristics** - High-speed circuit with low tire wear makes HARD compound competitive for race distance
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.x** - Core programming language
 - **FastF1** - F1 data API for telemetry and lap times
@@ -38,7 +38,7 @@ This project analyzes the 2025 Monza Grand Prix to answer key questions:
 - **Matplotlib** - Data visualization
 - **Jupyter Notebook** - Interactive development environment
 
-## 📁 Project Structure
+## Project Structure
 ```
 Lap Analyzer/
 ├── venv/                      # Virtual environment (isolated dependencies)
@@ -54,7 +54,7 @@ Lap Analyzer/
 └── README.md                 # Project documentation
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -93,7 +93,7 @@ jupyter notebook
 
 5. **Open the analysis notebook** in the `notebooks/` folder and run the cells!
 
-## 📈 Visualizations
+##  Visualizations
 
 ### Average Lap Time by Compound
 ![Average Lap Times](outputs/monza_tire_comparison.png)
@@ -107,7 +107,7 @@ jupyter notebook
 ### Lap Count by Compound
 ![Lap Count](outputs/monza_tire_count.png)
 
-## 🧹 Data Cleaning Process
+##  Data Cleaning Process
 
 The analysis includes comprehensive data cleaning:
 
@@ -118,7 +118,7 @@ The analysis includes comprehensive data cleaning:
 
 **Result:** From 1,000+ raw laps to 953 clean, analyzable laps
 
-## 🎓 What I Learned
+##  What I Learned
 
 ### Technical Skills
 - **Python Environment Management** - Virtual environments, package management with pip
@@ -139,7 +139,7 @@ The analysis includes comprehensive data cleaning:
 - Context matters - SOFT tires are fastest but rarely used in races due to degradation
 - Statistical measures tell different stories (mean vs median vs min)
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] **Tire degradation analysis** - Plot lap time vs tire age to visualize performance drop-off
 - [ ] **Multi-race comparison** - Compare tire performance across different circuits
@@ -171,4 +171,4 @@ Project Link: [https://github.com/webdevluis0510/f1-lap-analyzer](https://github
 
 ---
 
-*Built as part of a beginner data engineering learning journey* 🚀
+*Built as part of a beginner data engineering learning journey* 
